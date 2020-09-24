@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="./bootstrap.css">
+  <link rel="stylesheet" href="./main.css">
+  
+</head>
+<body>
+  <div class="container-fluid">
+      <h1 class="text-center font-weight-bold mt-2"> Doctor Shots
+        <img src="./logo.png" alt="" class="img-logo">
+      </h1>
+    <div class="btn-group btn-group-toggle d-flex justify-content-center" data-toggle="buttons">
+      <label class="btn btn-secondary active" id="regleta-btn">
+        <input type="radio" name="options" id="regletaChecked" autocomplete="off" checked > Regletas
+      </label>
+      <label class="btn btn-secondary" id="cocktail-btn">
+        <input type="radio" name="options" id="cocktailChecked" autocomplete="off"> Cocktails
+      </label>
+      <label class="btn btn-secondary" id="beers-btn">
+        <input type="radio" name="options" id="beersChecked" autocomplete="off"> Cervezas
+      </label>
+    </div>
+    <div id="app"></div>
+  </div>
+  
+</body>
+<script src="main.js"></script>
+</html>
