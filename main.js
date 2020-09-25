@@ -79,7 +79,7 @@ const regletas =[
   {
     id: 1,
     name: 'Jagger Bomb',
-    value: '$20.000',
+    value: '$25.000',
     value2: '',
     description: '6 tragos con Jager y energizante.'
   }
