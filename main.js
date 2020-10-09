@@ -134,7 +134,7 @@ const cocktails =[
     id: 2,
     name: 'Jagger Bomb',
     value: '$18.000',
-    value2: '$45.000',
+    value2: '$35.000',
     description: 'Jager, energizante o soda.'
   },
   {
